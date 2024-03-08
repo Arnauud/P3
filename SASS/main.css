@@ -95,7 +95,7 @@ h3 {
 .filter {
   display: flex;
   flex-direction: column;
-  margin-top: 45px;
+  margin: 45px 20px;
 }
 .filter h3 {
   max-width: 100%;
@@ -198,7 +198,8 @@ footer {
   height: 176px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .vendors article .label {
@@ -244,7 +245,7 @@ footer {
   right: 7%;
   top: 35%;
 }
-.vendors article .vendor-text .vendor-favorite :active, .vendors article .vendor-text i :active {
+.vendors article .vendor-text .vendor-favorite :hover, .vendors article .vendor-text i :hover {
   color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
